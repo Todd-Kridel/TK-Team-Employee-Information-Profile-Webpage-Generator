@@ -1,0 +1,20 @@
+{
+  "name": "tk-team-employee-information-profile-webpage-generator",
+  "version": "1.0.0",
+  "description": "This program is a console application that uses several Inquirer prompt sequences to gather from/for a team leader/manager some general employee profile information that is applicable to their team; and then the program upon exit of the prompt process generates a dynamic HTML webpage that shows a graphical view of the team employee information profile.",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "dependencies": {
+    "inquirer": "8.2.4", 
+    "fs": "", 
+    "open": ""
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "jest index.js"
+  },
+  "author": "Todd Kridel",
+  "license": "MIT"
+}
