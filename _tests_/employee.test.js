@@ -1,39 +1,39 @@
 
-// const <class name to be tested> = require("");
-// describe("<class/function name to be tested"), () => {
-//   describe("Initialization", () => {  // for a constructor function
-//     it("<descriptive purpose text>", () => {
-//       const <test object variable name> = new <class to be tested>();
-//       expect("<instance description text>" in <test object>).toEqual(<value>);
-//       });
-//     }
-//     it("<descriptive purpose text>", () => {
-//       const <test object variable name> = new <class to be tested>();
-//       expect("<instance description text>" in <test object>).toEqual(<value>);
-//       });
-//     }
-//     it("<descriptive purpose text>", () => {
-//       const <test object variable name> = new <class to be tested>();
-//       expect("<instance description text>" in <test object>).toEqual(<value>);
-//       });
-//     }
-//     ...
-//   }
-//   ...
-// }
-// ...
 
-// expect(typeof <type variable (from previous instantiation)>).toEqual("<type>");
-// expect(<object>.<property>).toEqual(<value>,...);
+const Employee = require("../lib/Employee.js");
 
-
-// Mock:
-// const mock = jest.spyOn(<object to test>, "<method action to test>");
-// mock.mockImplementation( () => { <desired response action[s]/statement[s] } );
-// expect(mock).toBeCalledWith(<condition>, <message variable>);
-// mock.<method action to test>("");
-// mock.mockRestore();
-// jest.mock("<system to test>");
+describe("Employee Class Testing", () => {
+  describe("Employee Class Initialization", () => {
+  it("Should create an object that contains the correct passed-in values that are for " + 
+    "name, ID, and email address when the constructor is called with the 'new' keyword " + 
+    "and the corresponding property initial-value arguments.", () => {
+    //
+    const testEmployee = new Employee("Test", "1234", "test@email.com");
+    //
+    expect(testEmployee.name).toEqual("Test");
+    expect(testEmployee.id).toEqual("1234");
+    expect(testEmployee.emailAddress).toEqual("test@email.com");
+  });
+  });
+  describe("Employee Class Methods", () => {
+  it("Should return the correct values that are for name, ID, email address, and role " + 
+    "properties when the corresponding 'get' functions are called.", () => {
+    const testEmployee = new Employee("Test", "1234", "test@email.com");
+    //
+    expect(typeof testEmployee.getName).toBe("function");
+    expect(testEmployee.getName()).toEqual("Test");
+    //
+    expect(typeof testEmployee.getId).toBe("function");
+    expect(testEmployee.getId()).toEqual("1234");
+    //
+    expect(typeof testEmployee.getEmailAddress).toBe("function");
+    expect(testEmployee.getEmailAddress()).toEqual("test@email.com");
+    //
+    expect(typeof testEmployee.getRole).toBe("function");
+    expect(testEmployee.getRole()).toEqual("Employee");
+  });
+  });
+});
 
 
 // Employee Class:
@@ -57,7 +57,7 @@
 // getId() {
 // return this.id;
 // }
-// getEmail() {
+// getEmailAddress() {
 // return this.email;
 // }
 // getRole() {

@@ -1,48 +1,58 @@
 
-// const <class name to be tested> = require("");
-// describe("<class/function name to be tested"), () => {
-//   describe("Initialization", () => {  // for a constructor function
-//     it("<descriptive purpose text>", () => {
-//       const <test object variable name> = new <class to be tested>();
-//       expect("<instance description text>" in <test object>).toEqual(<value>);
-//       });
-//     }
-//     it("<descriptive purpose text>", () => {
-//       const <test object variable name> = new <class to be tested>();
-//       expect("<instance description text>" in <test object>).toEqual(<value>);
-//       });
-//     }
-//     it("<descriptive purpose text>", () => {
-//       const <test object variable name> = new <class to be tested>();
-//       expect("<instance description text>" in <test object>).toEqual(<value>);
-//       });
-//     }
-//     ...
-//   }
-//   ...
-// }
-// ...
 
-// expect(typeof <type variable (from previous instantiation)>).toEqual("<type>");
-// expect(<object>.<property>).toEqual(<value>,...);
+const Intern = require("../lib/Intern.js");
 
-
-// Mock:
-// const mock = jest.spyOn(<object to test>, "<method action to test>");
-// mock.mockImplementation( () => { <desired response action[s]/statement[s] } );
-// expect(mock).toBeCalledWith(<condition>, <message variable>);
-// mock.<method action to test>("");
-// mock.mockRestore();
-// jest.mock("<system to test>");
+describe("Intern Sub-Class Testing", () => {
+  describe("Intern Sub-Class Initialization", () => {
+  it("Should create an object that contains the correct passed-in values that are for " + 
+    "school...and then also the name, ID, and email address values that are for the " + 
+    "Employee parent class...when the constructor is called with the 'new' keyword " + 
+    "and the corresponding property initial-value arguments.", () => {
+    //
+    const testIntern = new Intern("Test", "1234", "test@email.com", 
+      "Denver University (DU)");
+    //
+    expect(testIntern.name).toEqual("Test");
+    expect(testIntern.id).toEqual("1234");
+    expect(testIntern.emailAddress).toEqual("test@email.com");
+    expect(testIntern.school).toEqual("Denver University (DU)");
+  });
+  });
+  describe("Intern Sub-Class Methods", () => {
+  it("Should return the correct values that are for name, ID, email address, office " + 
+    "number, and role properties when the corresponding 'get' functions are called.", () => {
+    const testIntern = new Intern("Test", "1234", "test@email.com", 
+      "Denver University (DU)");
+    //
+    expect(typeof testIntern.getName).toBe("function");
+    expect(testIntern.getName()).toEqual("Test");
+    //
+    expect(typeof testIntern.getId).toBe("function");
+    expect(testIntern.getId()).toEqual("1234");
+    //
+    expect(typeof testIntern.getEmailAddress).toBe("function");
+    expect(testIntern.getEmailAddress()).toEqual("test@email.com");
+    //
+    expect(typeof testIntern.getSchool).toBe("function");
+    expect(testIntern.getSchool()).toEqual("Denver University (DU)");
+    //
+    expect(typeof testIntern.getRole).toBe("function");
+    expect(testIntern.getRole()).toEqual("Intern");
+  });
+  });
+});
 
 
 // Intern class:
 
+// const Employee = require("./Employee");
+
 // class Intern extends Employee { 
-// constructor(school) {
+// constructor(name, id, emailAddress, school) {
 // //
 // // properties
 // //
+// super(name, id, emailAddress);
 // this.school = school;
 // }
 // //
@@ -52,7 +62,7 @@
 // return this.school;
 // }
 // getRole() {
-// return this.getClassName();  // or return "Intern";
+// return this.constructor.name;  // or return "Intern";
 // }
 // //
 // }

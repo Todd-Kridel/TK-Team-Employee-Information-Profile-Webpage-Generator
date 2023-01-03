@@ -7,13 +7,15 @@
     "lib": "lib"
   },
   "dependencies": {
-    "inquirer": "8.2.4", 
-    "fs": "", 
+    "fs": "",
+    "inquirer": "8.2.4",
     "open": ""
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "jest": "^29.3.1"
+  },
   "scripts": {
-    "test": "jest index.js"
+    "test": "jest"
   },
   "author": "Todd Kridel",
   "license": "MIT"
