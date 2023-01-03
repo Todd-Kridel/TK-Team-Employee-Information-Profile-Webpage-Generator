@@ -99,7 +99,7 @@ theEmployeeStaticHTMLContentTextTop =
   <meta http-equiv="X-UA-Compatible" content="ie=edge" />
   <meta name="Description" content="Enter your description here" />
   <!-- -->
-  <link rel="stylesheet" href="./assets/css/style.css" />
+  <link rel="stylesheet" href="./dist/css/style.css" />
   <link rel="icon" type="image/ico" href="favicon.ico" />
   <title>TK Team Employee Information Profile Webpage Generator</title>
 </head>
