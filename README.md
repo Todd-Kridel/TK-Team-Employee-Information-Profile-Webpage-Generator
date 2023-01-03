@@ -198,7 +198,7 @@ The following picture shows the appearance of the application console applicatio
 
 ![an example view of the appearance of the webpage](./assets/images/Challenge%2010%20mockup.png)
 
-The following URL is for the GitHub Pages published public view of Todd Kridel's Coding Bootcamp Module 10 Challenge assignment "Team Employee Information Profile Webpage Generator": "https://todd-kridel.github.io//".
+The following URL is for the GitHub Pages published public view of Todd Kridel's Coding Bootcamp Module 10 Challenge assignment "Team Employee Information Profile Webpage Generator": https://todd-kridel.github.io/TK-Team-Employee-Information-Profile-Webpage-Generator/.
 
 
 ## 4. Program Credits/Contributors
