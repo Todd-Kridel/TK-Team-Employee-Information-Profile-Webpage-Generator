@@ -79,9 +79,7 @@ THEN I exit the application, and the HTML is generated,
 
 Also good coding practices and good GitHub/Git repository configuration.
 
-Also: The application includes a usage-demonstration walk-through video. The video demonstrates about the functionality of the application and its 4 passing tests. A link to the video is included in the README file of the repository. The video demonstrates about how a user invokes the application from the command line...and demonstrates about how a user enters responses to all all of the prompts of the application for generating the summary HTML page of the entered information. The video last shows the generated HTML page file that matches the user input.
-
-![an link to the application usage demo video](./assets/images/)
+Also: The application includes a usage-demonstration walk-through video. The video demonstrates about the functionality of the application and its 4 passing tests. A link to the video is included in the README file of the repository. The video demonstrates about how a user invokes the application from the command line...and demonstrates about how a user enters responses to all all of the prompts of the application for generating the summary HTML page of the entered information. The video last shows the generated HTML page file that matches the user input. Refer to the "[3. Program Usage Information](#3-Program-Usage-Information)" section for more information.
 
 |
 [ Application Components ]
@@ -194,6 +192,10 @@ To use this application...
 
 3. View the resulting dynamically-generated HTML webpage that displays the involved input data about a team of employees. The webpage should automatically open in the default browser of the involved user computer that is being used.
 
+4. Click the email links to see about how the application automatically links to and runs the default email program (if any) that is installed and activated on the involved user computer.
+
+5. Click the GitHub user name links to see about how the application automatically links to the GitHub website. Note that an actual profile page will not be found if the clicked user name is a fictitious demo name.
+
 The following picture shows an example of the appearance of the resulting generated HTML webpage:
 
 ![an example view of the appearance of the generated dynamic-HTML webpage](./assets/images/Challenge%2010%20mockup.png)
@@ -208,6 +210,8 @@ ScreenCastify.com: higher resolution: https://watch.screencastify.com/v/C8xa1aev
 Google Drive: lower resolution: https://drive.google.com/file/d/1htIQtIBmzzpNGAUot2YDgHYVa6roAcQG/view
 
 > ### Challenge 10 Demo Video (MP4):  (GITHUB SAVE FOR DOWNLOAD)
+
+On the displayed download webpage of the "images" sub-folder of this project repository...click the "Download" button that is on the right side of the screen on the line that contains the "16.4 MB" file size text.
 
 ![an example demo video of the usage of the application](./assets/images/Challenge_10_demo_video.mp4)
 
