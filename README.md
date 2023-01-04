@@ -29,7 +29,7 @@
 
 This current Module 10 Challenge assignment -- Team Employee Information Profile Webpage Generator application -- provided a good mechanism for learning and implementing more back-end JavaScript programming...including server API interface coding and console prompt scripting. A large portion and effort of the assignment was for data class/object design and implements...and to consider about and address concerns of data validation and automated unit testing for various functions and processes to ensure proper operation. The assignment was also a good mechanism for designing and implementing dynamically-generated HTML and then designing and applying the corresponding external-file Cascading Style Sheets (CSS) -- design appearance -- code. This assignment provided some additional attention to the concepts/objectives of "Accessibility" and "Responsiveness".
 
-The application is a command-line application that accepts user input that use. The application uses the npm Inquirer module to prompt to the user for the information that is necessary for processing.
+The application is a command-line application that accepts user input to gather information for generating a dynamic-HTML webpage view of the information; with some of the information being combined with active hyperlink functionality. The application uses the npm Inquirer module to prompt to the user for the information that is necessary for processing.
 
 
 ----
@@ -198,7 +198,7 @@ To use this application...
 
 The following picture shows an example of the appearance of the resulting generated HTML webpage:
 
-![an example view of the appearance of the generated dynamic-HTML webpage](./assets/images/Challenge%2010%20mockup.png)
+    ![an example view of the appearance of the generated dynamic-HTML webpage](./assets/images/Challenge%2010%20mockup.png)
 
 The following URL is for the GitHub Pages published public view of Todd Kridel's Coding Bootcamp Module 10 Challenge assignment "Team Employee Information Profile Webpage Generator"...that shows the dynamic-HTML-text webpage image of the most-recent session of answered employee information questions:
 
