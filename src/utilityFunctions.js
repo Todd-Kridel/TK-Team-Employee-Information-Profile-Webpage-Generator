@@ -40,16 +40,16 @@ switch (role) {
 // intern information: name, ID, email address, and *school*
 //
   case "Manager": 
-    roleIcon = "./assets/images/manager_icon.png";
+    roleIcon = "../assets/images/manager_icon.png";
     extraInformation = "Office: " + passedEmployeeObject.getOfficeNumber();
     break;
   case "Engineer": 
-    roleIcon = "./assets/images/engineer_icon.png";
+    roleIcon = "../assets/images/engineer_icon.png";
     extraInformation = "GitHub: <a href='https://github.com/" + passedEmployeeObject.
       getGitHub() + "' target='_blank'>" + passedEmployeeObject.getGitHub() + "</a>";
     break;
   case "Intern": 
-    roleIcon = "./assets/images/intern_icon.png";
+    roleIcon = "../assets/images/intern_icon.png";
     extraInformation = "School: " + passedEmployeeObject.getSchool();
     break;
 }
@@ -99,8 +99,8 @@ theEmployeeStaticHTMLContentTextTop =
   <meta http-equiv="X-UA-Compatible" content="ie=edge" />
   <meta name="Description" content="Enter your description here" />
   <!-- -->
-  <link rel="stylesheet" href="./dist/style.css" />
-  <link rel="icon" type="image/ico" href="favicon.ico" />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="icon" type="image/ico" href="../favicon.ico" />
   <title>TK Team Employee Information Profile Webpage Generator</title>
 </head>
 

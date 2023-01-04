@@ -188,17 +188,28 @@ IMPORTANT/REQUIRED: After when the repository has been cloned/downloaded to a lo
 
 To use this application...
 
-1. Type the command "node index" or "npm start" to start the console prompt process to generate the employee information profile webpage.
+1. Type the command "node index" (for index.js) to start the console prompt process to generate the employee information profile webpage. Note: The "npm start" command opens the application file for coding.
 
 2. Answer the prompts as-desired.
 
-3. View the resulting dynamically-generated HTML webpage that displays the involved input data about a team of employees.
+3. View the resulting dynamically-generated HTML webpage that displays the involved input data about a team of employees. The webpage should automatically open in the default browser of the involved user computer that is being used.
 
-The following picture shows the appearance of the application console application and the resulting generated HTML webpage:
+The following picture shows an example of the appearance of the resulting generated HTML webpage:
 
-![an example view of the appearance of the webpage](./assets/images/Challenge%2010%20mockup.png)
+![an example view of the appearance of the generated dynamic-HTML webpage](./assets/images/Challenge%2010%20mockup.png)
 
-The following URL is for the GitHub Pages published public view of Todd Kridel's Coding Bootcamp Module 10 Challenge assignment "Team Employee Information Profile Webpage Generator"...that shows the dynamic-HTML-text image of the most-recent session of answered employee information questions: https://todd-kridel.github.io/TK-Team-Employee-Information-Profile-Webpage-Generator/.
+The following URL is for the GitHub Pages published public view of Todd Kridel's Coding Bootcamp Module 10 Challenge assignment "Team Employee Information Profile Webpage Generator"...that shows the dynamic-HTML-text webpage image of the most-recent session of answered employee information questions: https://todd-kridel.github.io/TK-Team-Employee-Information-Profile-Webpage-Generator/.
+
+
+> ### Challenge 10 Demo Video (MP4):  (INTERNET POST FOR VIEWING)
+
+ScreenCastify.com: higher resolution: https://watch.screencastify.com/v/C8xa1aev70KCZtLOIMw9
+
+Google Drive: lower resolution: https://drive.google.com/file/d/1htIQtIBmzzpNGAUot2YDgHYVa6roAcQG/view
+
+> ### Challenge 10 Demo Video (MP4):  (GITHUB SAVE FOR DOWNLOAD)
+
+![an example demo video of the usage of the application](./assets/images/Challenge_10_demo_video.mp4)
 
 
 ## 4. Program Credits/Contributors
@@ -208,9 +219,9 @@ NA
 
 ## 5. Program Test Information
 
-The application uses the npm Jest module for running the code unit functional tests.
+The application uses the npm Jest module for running the code unit functional tests (by using the "npm test" command or the "npm test -- --verbose" command).
 
-SUCCESSFULLY TESTED -- ALL UNITS (as shown in the following image and included in the usage demo video)
+TEST STATUS: SUCCESSFUL -- ALL UNITS (as shown in the following image and included in the usage demo video)
 
 ![a view of the successful passing automated Jest functional tests](./assets/images/All%20Class%20Unit%20Tests%20Passed.png)
 
