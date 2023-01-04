@@ -234,7 +234,7 @@ The unit tests were for the 4 class definitions of the application (1 main/paren
 
 * a test that a created object of the class correctly stores the initialization/instantiation value that is passed to the class constructor function
 * a test of the status/type/presence of each contained "function"
-* a test that each contained "get" function returns the proper value that is currently is being stored
+* a test that each contained "get" function returns the proper value that currently is being stored
 
 ![a view of the successful passing automated Jest functional tests](./assets/images/All%20Class%20Unit%20Tests%20Passed.png)
 
