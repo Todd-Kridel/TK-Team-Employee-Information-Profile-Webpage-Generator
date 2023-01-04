@@ -215,7 +215,9 @@ Google Drive: lower resolution: https://drive.google.com/file/d/1htIQtIBmzzpNGAU
 
 On the displayed download webpage of the "images" sub-folder of this project repository...click the "Download" button that is on the right side of the screen on the line that contains the "16.4 MB" file size text.
 
-![an example demo video of the usage of the application](./assets/images/Challenge_10_demo_video.mp4)
+![Click this link to download an example demo video of the usage of the application.](./assets/images/Challenge_10_demo_video.mp4)
+
+URL (if the above link does not work): https://github.com/Todd-Kridel/TK-Team-Employee-Information-Profile-Webpage-Generator/raw/main/assets/images/Challenge_10_demo_video.mp4
 
 
 ## 4. Program Credits/Contributors
