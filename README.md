@@ -232,7 +232,7 @@ TEST STATUS: SUCCESSFUL -- ALL UNITS (as shown in the following image and includ
 
 The unit tests were for the 4 class definitions of the application (1 main/parent class and 3 extending sub-classes)...and each class received the following testing:
 
-* a test that a created object of the class correctly stores the initialization/instantiation value that is passed to the class constructor function
+* a test that a created object of the class correctly stores the initialization/instantiation values that are passed to the class constructor function
 * a test of the status/type/presence of each contained "function"
 * a test that each contained "get" function returns the proper value that currently is being stored
 
