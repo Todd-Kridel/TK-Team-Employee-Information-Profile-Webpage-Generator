@@ -202,7 +202,7 @@ The following picture shows an example of the appearance of the resulting genera
 
 The following URL is for the GitHub Pages published public view of Todd Kridel's Coding Bootcamp Module 10 Challenge assignment "Team Employee Information Profile Webpage Generator"...that shows the dynamic-HTML-text webpage image of the most-recent session of answered employee information questions:
 
-https://todd-kridel.github.io/TK-Team-Employee-Information-Profile-Webpage-Generator/.
+https://todd-kridel.github.io/TK-Team-Employee-Information-Profile-Webpage-Generator
 
 
 > ### Challenge 10 Demo Video (MP4):  (INTERNET POST FOR VIEWING)
