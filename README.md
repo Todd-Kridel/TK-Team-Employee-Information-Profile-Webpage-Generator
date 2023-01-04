@@ -164,13 +164,12 @@ IMPORTANT/REQUIRED: After when the repository has been cloned/downloaded to a lo
     "directories": {
         "lib": "lib"
     },
-    ----
+    ////////////////
     "dependencies": {
-        "fs": "current version",
         "inquirer": "8.2.4",
         "open": "current version"
     },
-    ----
+    ////////////////
     "devDependencies": {
         "jest": "^29.3.1"
     },
@@ -198,7 +197,7 @@ To use this application...
 
 The following picture shows an example of the appearance of the resulting generated HTML webpage:
 
-    ![an example view of the appearance of the generated dynamic-HTML webpage](./assets/images/Challenge%2010%20mockup.png)
+![an example view of the appearance of the generated dynamic-HTML webpage](./assets/images/Challenge%2010%20mockup.png)
 
 The following URL is for the GitHub Pages published public view of Todd Kridel's Coding Bootcamp Module 10 Challenge assignment "Team Employee Information Profile Webpage Generator"...that shows the dynamic-HTML-text webpage image of the most-recent session of answered employee information questions:
 

@@ -7,7 +7,6 @@
     "lib": "lib"
   },
   "dependencies": {
-    "fs": "",
     "inquirer": "8.2.4",
     "open": ""
   },
